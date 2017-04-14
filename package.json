@@ -1,0 +1,29 @@
+{
+  "name": "Amuse",
+  "version": "1.0.0",
+  "description": "A chrome-extension to manage the mp3 files browsed through",
+  "main": "index.js",
+  "scripts": {
+    "test": "webpack",
+    "build": "webpack && sh deploy.sh"
+  },
+  "author": "Aniruddha Nath",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "webpack": "^1.14.0"
+  },
+  "dependencies": {
+    "fuzzysearch": "^1.0.3",
+    "react": "^15.4.1",
+    "react-custom-scrollbars": "^4.0.0",
+    "react-dom": "^15.4.1",
+    "react-edit-inline": "^1.0.8",
+    "react-redux": "^4.4.6",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0"
+  }
+}

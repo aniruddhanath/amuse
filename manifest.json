@@ -1,0 +1,25 @@
+{
+  "name": "Amuse - Music Aggregator",
+  "version": "1.7.1",
+  "description": "Manage audio files as you browse through",
+  "permissions": [
+    "tabs",
+    "storage",
+    "webRequest",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Amuse"
+  },
+  "icons": { 
+    "16": "icon_16.png",
+    "48": "icon_48.png",
+    "128": "icon_128.png"
+  },
+  "manifest_version": 2
+}
