@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "webpack",
-    "build": "webpack && sh deploy.sh"
+    "build": "webpack && sh build.sh"
   },
   "author": "Aniruddha Nath",
   "license": "ISC",
